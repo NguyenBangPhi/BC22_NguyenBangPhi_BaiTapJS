@@ -72,6 +72,6 @@ console.log("Diện tích: " + dientich + "; Chu vi: " + chuvi);
 
 var so = 25;
 var hangChuc = Math.floor(so/10);
-var hangDonVi = so%10;
+var hangDonVi = Math.floor(so%10);
 var tong = hangChuc + hangDonVi;
 console.log("Tổng của 2 ký số vừa nhập: " + tong);
